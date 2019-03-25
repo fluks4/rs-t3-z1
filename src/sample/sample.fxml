@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Label text="Unesite n:" />
+      <TextField fx:id="UnosLabela" GridPane.columnIndex="1" />
+      <Button fx:id="Submit" mnemonicParsing="false" onAction="#SubmitAction" text="Button" GridPane.rowIndex="1" />
+      <Label fx:id="Ispis" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+   </children>
+</GridPane>
